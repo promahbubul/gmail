@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icon_menu {
+  background-color: #eaf1fb;
+  height: 100vh;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.icon_menu .menu_button {
+  background-color: transparent;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.icon_menu img {
+  width: 20px;
+  height: 20px;
+}
+
+.icon_menu button:hover {
+  background: #3c404314;
+  border-radius: 100%;
+}
+
+.menu_div {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu_nav_link {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
